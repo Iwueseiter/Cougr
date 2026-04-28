@@ -11,6 +11,7 @@
 
 use super::*;
 use soroban_sdk::Env;
+use crate::types::{MAZE_WIDTH, MAZE_HEIGHT, GhostMode, POWER_MODE_DURATION};
 
 // =============================================================================
 // Test Helpers

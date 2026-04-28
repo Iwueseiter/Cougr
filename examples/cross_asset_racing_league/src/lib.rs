@@ -2,7 +2,7 @@
 #![allow(deprecated)]
 
 use soroban_sdk::{
-    contract, contractimpl, panic_with_error, symbol_short, Address, BytesN, Env, Vec,
+    contract, contractimpl, panic_with_error, symbol_short, Address, BytesN, Env,
 };
 
 pub mod components;

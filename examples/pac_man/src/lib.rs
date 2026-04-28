@@ -3,7 +3,7 @@
 use cougr_core::component::ComponentTrait;
 use cougr_core::component::Position as CorePosition;
 use cougr_core::event::Event;
-use soroban_sdk::{contract, contractimpl, symbol_short, Env, Vec};
+use soroban_sdk::{contract, contractimpl, Env, Vec};
 
 pub mod components;
 pub mod maze;

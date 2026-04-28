@@ -1,7 +1,7 @@
 use crate::components::{BoostComponent, VehicleComponent};
 use crate::helpers::{assert_initialized, assert_owner, verify_proof_stub};
 use crate::types::{
-    BoostState, DataKey, GameState, PlayerStanding, ProofInput, Race, RacingError, VehicleState,
+    BoostState, DataKey, PlayerStanding, ProofInput, Race, RacingError, VehicleState,
     BOOST_LEGENDARY, BOOST_LEGENDARY_COST, BOOST_PREMIUM, BOOST_PREMIUM_COST, BOOST_STANDARD,
     BOOST_STANDARD_COST, MAX_RACERS_PER_RACE, RACE_STATE_ACTIVE, RACE_STATE_COMPLETED,
     RACE_STATE_REGISTRATION,
