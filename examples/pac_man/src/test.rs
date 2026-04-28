@@ -10,8 +10,8 @@
 //! - Win/lose conditions
 
 use super::*;
+use crate::types::{GhostMode, MAZE_HEIGHT, MAZE_WIDTH, POWER_MODE_DURATION};
 use soroban_sdk::Env;
-use crate::types::{MAZE_WIDTH, MAZE_HEIGHT, GhostMode, POWER_MODE_DURATION};
 
 // =============================================================================
 // Test Helpers
